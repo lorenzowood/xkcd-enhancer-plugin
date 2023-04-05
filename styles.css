@@ -1,0 +1,45 @@
+#xkcd-navigator {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+  
+  #prevButton,
+  #nextButton {
+    cursor: pointer;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  
+  #prevButton:hover,
+  #nextButton:hover {
+    background-color: #eee;
+  }
+  
+  #prevButton:disabled,
+  #nextButton:disabled {
+    cursor: not-allowed;
+    background-color: #f1f1f1;
+    color: #aaa;
+  }
+  
+  #xkcd-title {
+    background-color: #ffffcc;
+    color: #000;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    box-sizing: border-box;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word;
+    text-align: left;
+  }
+  
