@@ -38,13 +38,17 @@
   
     const comicDiv = document.querySelector("#comic");
     const comicImg = comicDiv && comicDiv.querySelector("img");
-  
+    const lowerComicNav = document.querySelectorAll(".comicNav")[1];
+
     if (comicImg && comicImg.title) {
       const titleDiv = document.createElement("div");
       titleDiv.id = "xkcd-title";
       titleDiv.textContent = comicImg.title;
   
-      comicImg.insertAdjacentElement("afterend", titleDiv);
+      if (lowerComicNav)
+        lowerComicNav.insertBefore(titleDiv, lowerComicNav.firstChild);
+      else 
+        comicImg.insertAdjacentElement("afterend", titleDiv);
     }
   })();
   
