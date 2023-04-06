@@ -5,8 +5,6 @@ This is a Chrome plugin to modify the experience of reading comic pages from [xk
 * It adds previous and next buttons top right. These remain fixed in place, so it’s you can easily click through many, many xkcd comics without moving your mouse pointer.
 * xkcd comics all have a concluding remark normally revealed by hovering over it. The plugin adds this remark into a yellow box below the comic, so you can read it without the hover.
 
-Largely written by GPT4. Welcome to the era of thinking, “it would be more convenient if this page worked like this,” to asking for a plugin to make the changes, to having it running in under five minutes. 
-
 ## How to install
 
 1. Download the repository into a folder
